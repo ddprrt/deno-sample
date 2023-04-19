@@ -5,5 +5,5 @@ addEventListener("fetch", (event) => {
         headers: { "content-type": "text/plain" },
       });
       event.respondWith(response);
-  }, 10000);
+  }, 20000);
 });
